@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+#logo {
+    width: 260px;
+    height: 33px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+}
+
+.Midgrid {
+    margin-top: 100px;
+}
+
+.titre {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    color: white;
+    margin-top: 0px;
+}
+
+.m1title {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 31px;
+    color: rgb(0, 179, 155);
+    margin: 40px 30px 40px 40px;
+}
+
+.ztitle {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(0, 179, 155);
+}
+
+.m3title {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 38.5px;
+    color: rgb(0, 179, 155);
+    margin: 80px 200px 0px 200px;
+}
+
+.title3 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 38.5px;
+    color: rgb(0, 179, 155);
+    margin: 40px 200px 40px 200px;
+}
+
+#p3 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.m3p {
+    font-family: "Work Sans", Arial, sans-serif;
+    margin: 20px 80px 0px 200px;
+}
+
+.sponsors img {
+    width: 150px;
+    height: 80px;
+    margin: 40px 30px 40px 40px;
+    justify-content: space-between;
+}
+
+.titre2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 31px;
+    color: white;
+}
+
+p {
+    font-size: 12px;
+}
+
+.par2 {
+    margin-top: 80px;
+}
+
+.container {
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.container2 {
+    width: 100%;
+    background: #e5faf8;
+    height: 600px;
+    display: flex;
+}
+
+.grid {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1 {
+    background: #00ccb1;
+    color: #fff;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px;
+    width: 285px;
+    height: 300px;
+}
+
+select {
+    background-color: transparent;
+    border: transparent;
+    color: white;
+}
+
+.m1 {
+    width: 25%;
+    float: left;
+}
+
+.m2 {
+    width: 75%;
+    float: left;
+}
+
+.m3 {
+    width: 50%;
+    overflow: hidden;
+}
+
+
+/* .m4 {
+    width: 75%;
+    float: left;
+} */
+
+.col2 {
+    background: #3d83df;
+    color: #fff;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px;
+    width: 285px;
+    height: 300px;
+}
+
+.col3 {
+    background: #1b2734;
+    color: #fff;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px;
+    width: 285px;
+    height: 300px;
+}
+
+li {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    margin-right: 20px;
+    cursor: pointer;
+    position: relative;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: grey;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+    width: 200px;
+    /* height: auto; */
+    margin-left: -50px;
+    box-shadow: 0px 0px 10px gray;
+    background-color: #fff;
+}
+
+.menu-item:hover .drop-menu {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+}
+
+.drop-menu-item {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    color: grey;
+}
+
+.menu-item:hover {
+    color: rgb(0, 179, 155);
+}
+
+.title {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title h1 {
+    font: 300 34px "Work Sans", Arial, sans-serif;
+    color: rgb(0, 179, 155);
+    line-height: 44.2px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info p {
+    width: 45%;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+}
+
+.m4 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.zone1 {
+    background: #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 10px;
+    margin: 60px -250px 20px 0px;
+}
+
+.zone2 {
+    background: #fff;
+    border-radius: 5px;
+    width: 200px;
+    height: 220px;
+    text-align: center;
+    padding: 10px;
+}
+
+.zone3 {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+#nejma {
+    z-index: 200;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.part100 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.part200 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.pic {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.live h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+    margin-left: 570px;
+    margin-top: 100px;
+    width: 500px;
+    text-align: center;
+}
+
+.live p {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    margin-left: 520px;
+    width: 600px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.button {
+    border-radius: 4px;
+    width: 110px;
+    height: 32px;
+    background-color: rgb(74, 144, 236);
+    border: transparent;
+    color: white;
+}
+
+.button :hover {
+    background-color: rgb(9, 74, 117);
+}
+
+.lien {
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.hotel1 {
+    display: block;
+}
+
+.hotel {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    justify-content: space-between;
+}
+
+.lien :hover {
+    box-shadow: 0px 0px 10px gray;
+}
+
+.ligne1 {
+    max-width: 1060px;
+    margin: auto;
+    overflow: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sounds {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(51, 51, 51);
+    margin-left: 500px;
+    width: 600px;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+
+.butt {
+    border-radius: 4px;
+    width: 260px;
+    height: 45px;
+    background-color: rgb(74, 144, 236);
+    border: transparent;
+    color: white;
+}
+
+.butt :hover {
+    background-color: rgb(9, 74, 117);
+}
+
+footer {
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color: rgb(171, 171, 171);
+}
